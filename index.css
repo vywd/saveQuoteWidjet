@@ -1,0 +1,29 @@
+body{
+    min-width: 250px;
+    max-width: 350px;
+    min-height: 150px;
+}
+ul {
+    list-style: none;
+}
+li{
+    display: flex;
+    flex-direction: column;
+}
+li div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li div p{
+    font-style: italic;
+    max-width: 320px;
+}
+li div span{
+    
+}
+li a{
+    text-decoration: underline;
+    color: black;
+    align-self: end;
+}

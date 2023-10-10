@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Save quote widjet",
+    "version": "0.0.1",
+    "description": "Save quote widjet",
+    "author": "vywebdev@gmail.com",
+    "action": {
+        "default_title": "Save quote widjet",
+        "default_popup": "index.html"
+      }  
+}
