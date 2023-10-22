@@ -27,3 +27,8 @@ li a{
     color: black;
     align-self: end;
 }
+span{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}

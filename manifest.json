@@ -7,5 +7,24 @@
     "action": {
         "default_title": "Save quote widjet",
         "default_popup": "index.html"
-      }  
+      },  
+    "permissions": [
+      "tabs", 
+      "activeTab",
+      "storage", 
+      "nativeMessaging"
+    ],
+    "action": {
+      "default_popup": "index.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["https://*/*"],
+        "js": ["content.js"]
+      }
+    ]
 }
